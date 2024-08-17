@@ -19,7 +19,7 @@
     font-size: 1.5em; 
     margin: 0;
     font-weight: 500;
-    /* padding-top: 5px;  */
+   
 }
 nav{
     display: flex;
@@ -30,7 +30,7 @@ nav{
     z-index: 10;
     backdrop-filter: blur(10px);
     padding: 30px;
-    /* background-color: rgba(234, 228, 228, 0.5); */
+  
 
 }
 ul{
@@ -80,7 +80,7 @@ li a:hover{
   
     height: 700px;
     width: 100%;
-    /* object-fit: cover; */
+   
     position: relative;
 }
 .overlay-text{
@@ -103,21 +103,21 @@ li a:hover{
    margin: 80px;
     color: rgb(13, 12, 12);
     background-color: chartreuse;
-    padding: 10px 20px; /* Add padding to make it look like a button */
-    border-radius: 5px; /* Slightly round the corners */
-    text-decoration: none; /* Remove underline */
-    font-weight: bold; /* Make the text bold */
-    font-size: 1em; /* Adjust the font size */
-    display: inline-block; /* Make it respect the padding */
-    border: 2px solid transparent; /* Add a border for better visibility */
-    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition effects */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold; 
+    font-size: 1em; 
+    display: inline-block; 
+    border: 2px solid transparent; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
-/* Optional: Add a hover effect */
+
 .carousel-caption a:hover {
-    background-color: rgb(10, 240, 10); /* Darker shade on hover */
-    color: white; /* Change text color on hover */
-    border-color: rgb(13, 12, 12); /* Optional border color on hover */
+    background-color: rgb(10, 240, 10); 
+    color: white; 
+    border-color: rgb(13, 12, 12);
 }
 
 .row1{
@@ -135,19 +135,19 @@ li a:hover{
     margin: 80px;
     color: rgb(13, 12, 12);
     background-color: rgb(233, 13, 75);
-    padding: 10px 20px; /* Add padding to make it look like a button */
-    border-radius: 5px; /* Slightly round the corners */
-    text-decoration: none; /* Remove underline */
-    font-weight: bold; /* Make the text bold */
-    font-size: 1em; /* Adjust the font size */
-    display: inline-block; /* Make it respect the padding */
-    border: 2px solid transparent; /* Add a border for better visibility */
+    padding: 10px 20px; 
+    border-radius: 5px;
+    text-decoration: none; 
+    font-weight: bold;
+    font-size: 1em; 
+    display: inline-block; 
+    border: 2px solid transparent; 
     transition: background-color 0.3s ease, color 0.3s ease; 
 
 }
 .package:hover{
-    background-color: rgb(34, 17, 214); /* Darker shade on hover */
-    color: white; /* Change text color on hover */
+    background-color: rgb(34, 17, 214);
+    color: white; 
     border-color: rgb(13, 12, 12);
 }
 .card-row {
@@ -203,29 +203,29 @@ h4{
 }
 
 .card h2 {
-    font-size: 1.5em; /* Adjust heading size */
-    margin: 16px 0; /* Space above and below the heading */
+    font-size: 1.5em; 
+    margin: 16px 0; 
 }
 
 .card p {
-    font-size: 1em; /* Adjust paragraph size */
-    margin: 16px 0; /* Space above and below the paragraph */
-    color: #333; /* Text color */
+    font-size: 1em;
+    margin: 16px 0;
+    color: #333; 
 }
 
 .order-button {
     display: inline-block;
-    padding: 10px 20px; /* Button padding */
+    padding: 10px 20px; 
     margin-top: 10px;
-    background-color: #ff6f61; /* Button background color */
-    color: rgb(77, 57, 210); /* Button text color */
-    text-decoration: none; /* Remove underline from link */
-    border-radius: 4px; /* Rounded corners */
+    background-color: #ff6f61; 
+    color: rgb(77, 57, 210); 
+    text-decoration: none; 
+    border-radius: 4px;
     transition: background-color 0.3s ease;
 }
 
 .order-button:hover {
-    background-color: #ff3b30; /* Darker shade on hover */
+    background-color: #ff3b30; 
 }
 .card:hover{
     box-shadow: 0 8px 16px 
@@ -399,38 +399,38 @@ display: flex;
 
 .rating {
     padding: 10px;
-    background-color: #f8f9fa; /* Light background for the rating section */
+    background-color: #f8f9fa; 
 }
 .star {
-    font-size: 1.5em; /* Adjust star size */
-    color: #ddd; /* Light color for empty stars */
-    margin: 0 2px; /* Space between stars */
+    font-size: 1.5em; 
+    color: #ddd; 
+    margin: 0 2px; 
     display: inline-block;
 }
 
 .star.filled {
-    color: #14e04e; /* Gold color for filled stars */
+    color: #14e04e; 
 }
 
 .star.half {
-    color: #29de44; /* Gold color for half stars */
+    color: #29de44; 
     position: relative;
 }
 
 .star.half::after {
-    content: '\2606'; /* Empty star character */
+    content: '\2606'; 
     position: absolute;
     top: 0;
     left: 0;
     width: 50%;
-    color: #ddd; /* Light color for empty stars */
+    color: #ddd; 
     overflow: hidden;
 }
 .footer {
     height: 300px;
-    background-color: #18047b; /* Dark background color for the footer */
-    color: #fff; /* Light text color */
-    padding: 20px; /* Padding around the footer content */
+    background-color: #18047b; 
+    color: #fff; 
+    padding: 20px; 
 }
 
 .footer-container {
