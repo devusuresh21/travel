@@ -131,8 +131,14 @@ li a:hover{
    
     
 }
-.package{
-    margin: 80px;
+.package-container {
+    text-align: center;
+    margin-top: 20px; /* Adjust the spacing as needed */
+}
+
+.package {
+    
+    margin: 50px auto;
     color: rgb(13, 12, 12);
     background-color: rgb(233, 13, 75);
     padding: 10px 20px; 
@@ -143,13 +149,14 @@ li a:hover{
     display: inline-block; 
     border: 2px solid transparent; 
     transition: background-color 0.3s ease, color 0.3s ease; 
-
 }
-.package:hover{
+
+.package:hover {
     background-color: rgb(34, 17, 214);
     color: white; 
     border-color: rgb(13, 12, 12);
 }
+
 .card-row {
     display: flex;
     flex-wrap: wrap; 
